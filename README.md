@@ -25,7 +25,7 @@ Table of Contents
 - Appendix and Plugin
 
 ### Defensive Bidding System
-- Opening lead
+- [Opening lead](defensive/opening_lead.md)
 - Defense signal
 - Rubens Adanced after partner overcall
 - Double
@@ -107,7 +107,7 @@ cd| card count
 How to build html or pdf
 ------------------------
 
-There is many tools that can transform markup format to html/pdf
+There is many tools that can transform markup format to html/pdf. 
 Here I use python as middleware to implement the task.
 
 ### Requirement
