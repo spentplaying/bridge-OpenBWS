@@ -17,9 +17,8 @@ VS Weak NT
 ----------
 
 #### Design
- -  | (1N) - ?
- -  | (1N) - P - (P) - ?
---- | :---
+ -  | (1N) - ?  <br>    (1N) - P - (P) - ?
+--- | :-----
 X   | 14+, partner can pass
 2C  | H + ?, constructive
 2D  | S + ?, constructive
