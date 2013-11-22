@@ -30,11 +30,12 @@ Table of Contents
 - Rubens Adanced after partner overcall
 - Double
 - [VS NT opening](defensive/vs_nt.md)
-- VS Preemptive nature opening
-- VS multi opening
-- VS 2 suit opening
-- VS Strong Club opening
+- [VS Preemptive Opening](defensive/vs_preempt.md)
+- VS multi
+- VS Strong Club
 - VS Poblish Club
+- NT overcall
+- [4th position overcall](defensive/4th_overcall.md)
 
 
 
