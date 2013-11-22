@@ -5,7 +5,7 @@ VS not support case
 -------------------
 
  -  | (1X) - (1Y) - ?
---- | ----------------
+--- | :----------------
 X   | take out double
 1N  | 55 in other 2 suit, 10~15 value.
 2X  | 46 in other 2 suit, 6 is the lower suit.
@@ -27,7 +27,7 @@ VS Forcing NT
 -------------
 
  -  | (1M) - (1N*) - ?
---- | -----------------
+--- | :-----------------
 X   | 14+ bal or strong hand
 2m  | short M, NF. usually 4M5m or 5M4m, might be 6m
 2oM | 6+ suit

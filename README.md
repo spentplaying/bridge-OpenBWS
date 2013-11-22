@@ -74,7 +74,7 @@ You can use GitHub GUI to maintain or use git command line.
 
     #### Design
      -  | sequence
-    --- | ---
+    --- | :---
     1D  |
     1H  |
     1S  |
@@ -97,7 +97,7 @@ You can use GitHub GUI to maintain or use git command line.
 ### Syntax
 
 sybmol | description
------- | ---
+------ | :---
 m | minor
 M | major
 ~ | 12~15

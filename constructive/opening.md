@@ -3,7 +3,7 @@ Opening
 
 #### Design
  -  | opening
---- | ---
+--- | :---
 1C  | 12~21 hcp, 3+cd C
 1D  | 12~21 hcp, 3+cd D
 1H  | 11~21 hcp, 5+cd H. May have only 4 card in 3rd/4th position.
