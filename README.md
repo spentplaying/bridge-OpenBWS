@@ -29,7 +29,7 @@ Table of Contents
 - Defense signal
 - Rubens Adanced after partner overcall
 - Double
-- VS NT opening
+- [VS NT opening](defensive/vs_nt.md)
 - VS Preemptive nature opening
 - VS multi opening
 - VS 2 suit opening
@@ -66,10 +66,12 @@ You can use GitHub GUI to maintain or use git command line.
     1C and 1D (Section Title)
     =========================
 
-    1C first response (Title)
+    first response (Title)
     -------------------------
 
-    ### Design
+    ### 1C - ?(Sequence)
+
+    #### Design
      -  | sequence
     --- | ---
     1D  |
@@ -87,7 +89,7 @@ You can use GitHub GUI to maintain or use git command line.
     3S  |
     3N  |
     
-    ### Description
+    #### Description
     bla bla bla
 
 
