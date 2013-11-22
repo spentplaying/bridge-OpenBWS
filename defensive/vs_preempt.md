@@ -15,7 +15,13 @@ VS 3 level
 
 VS multi suit
 -------------
+### VS Major and the other suit
+####Design
 
+
+### VS Flannery
+
+### VS minors
 
 
 Leaping Michael
