@@ -1,12 +1,19 @@
 import markdown
-from markdown.extensions import Extension
+import pdfkit
 
-class BridgeExtension(Extension):
-    pass
+CONSTRUCTIVE_SYSTEM = ['constructive/opening.md']
+DEFENSIVE_SYSTEM = ['defensive/opening_lead.md']
 
+HTML_TEMPLATE = """<!doctype html>
+<html lang="en">
+<body>
+%(body)s
+</body>
+</html>
+"""
 
 def concatenate_file_path_array_to_string(file_path_ary):
-    content = '[TOC]\n\n'
+    content = ''
     for file_name in file_path_ary:
         file = open(file_name)
         content += file.read() + '\n'
@@ -14,17 +21,16 @@ def concatenate_file_path_array_to_string(file_path_ary):
 
 def markdown_to_html(md_string):
     return markdown.markdown(md_string, 
-                             extensions=['extra', 'toc'], 
+                             extensions=['extra'], 
                              output_format='html5')
 
-def html_to_pdf(html_string):
-    pass
+def html_to_pdf(html_string, output_file):
+    pdfkit.from_string(html_string, output_file)
 
 if __name__ == '__main__':
-    CONSTRUCTIVE_SYSTEM = ['constructive/opening.md']
-    DEFENSIVE_SYSTEM = [] #['defensive/*.md']
-
     content = concatenate_file_path_array_to_string(CONSTRUCTIVE_SYSTEM)
-    html = markdown_to_html(content)
-    file = open('constructive_bidding_system.html', 'w')
-    file.write(html)
+    body = markdown_to_html(content)
+    html_content = HTML_TEMPLATE % {'body': body}
+    html_to_pdf(html_content, 'constructive_bidding_system.pdf')
+    # file = open('constructive_bidding_system.html', 'w')
+    # file.write(html_content)

@@ -132,6 +132,12 @@ brew install pyp
 pip install python-markdown
 ```
 
+Install wkhtmltopdf
+```
+brew install wkhtmltopdf
+pip install pdfkit
+```
+
 Generate html and pdf using build.py
 ```
 python build.py
