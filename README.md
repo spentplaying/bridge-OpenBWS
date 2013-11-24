@@ -34,12 +34,12 @@ Table of Contents
 - VS multi
 - VS Strong Club
 - VS Poblish Club
-- NT overcall
+- [NT overcall](defensive/nt_overcall.md)
 - [4th position overcall](defensive/4th_overcall.md)
 
 
 
-How to use join us ?
+How to join us ?
 --------------------
 
 You can use GitHub GUI to maintain or use git command line.
