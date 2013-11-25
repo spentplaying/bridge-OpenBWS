@@ -28,7 +28,7 @@ Table of Contents
 - [Opening lead](defensive/opening_lead.md)
 - Defense signal
 - Rubens Adanced after partner overcall
-- Double
+- [Double](defensive/double.md)
 - [VS NT opening](defensive/vs_nt.md)
 - [VS Preemptive Opening](defensive/vs_preempt.md)
 - VS multi
