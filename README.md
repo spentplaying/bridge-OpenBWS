@@ -117,7 +117,8 @@ Here I use python as middleware to implement the task.
 ### Requirement
 - Python27
 - python-markdown
-- xhtml2pdf
+- wkhtmltopdf
+- pdfkit
 
 ### Setup environment
 
@@ -131,12 +132,12 @@ Install pip to get Python Package
 ```
 brew install pyp
 pip install python-markdown
+pip install pdfkit
 ```
 
 Install wkhtmltopdf
 ```
 brew install wkhtmltopdf
-pip install pdfkit
 ```
 
 Generate html and pdf using build.py
@@ -144,6 +145,27 @@ Generate html and pdf using build.py
 python build.py
 ```
 
+#### Windows environment
+Install Python27
+```
+http://www.python.org/download/
+```
 
+Install pip to get Python Package
+```
+http://www.pip-installer.org/en/latest/installing.html
+pip install python-markdown
+pip install pdfkit
+```
+
+Install wkhtmltopdf
+```
+https://code.google.com/p/wkhtmltopdf/downloads/list
+```
+
+Generate html and pdf using build.py
+```
+python build.py
+```
 
 
