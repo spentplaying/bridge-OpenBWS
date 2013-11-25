@@ -20,7 +20,8 @@ Table of Contents
 - Rubens Advanced after opponent overcall
 - Double
 - Lebensohl and Goodbad
-- VS 2 suit overcall
+- Unusually 2N and Michael
+- Against NT overcall
 - Common Rule
 - Appendix and Plugin
 
