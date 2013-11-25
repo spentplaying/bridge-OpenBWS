@@ -10,17 +10,10 @@ DEFENSIVE_SYSTEM = ['defensive/opening_lead.md',
 HTML_TEMPLATE = """<!doctype html>
 <html lang="en">
 <body>
-%(body)s
+%s
 </body>
 </html>
 """
-
-# def concatenate_file_path_array_to_string(file_path_ary):
-#     content = ''
-#     for file_name in file_path_ary:
-#         file = open(file_name)
-#         content += file.read() + '\n'
-#     return content
 
 def markdown_to_html(md_string):
     return markdown.markdown(md_string, 
@@ -37,11 +30,11 @@ def html_files_to_pdf(html_files, output_file):
         'encoding': "UTF-8",
         'grayscale': None,
         'outline-depth':3,
+        'footer-center':'[page]',
+        'footer-line': None,
     }
     toc = {
         'xsl-style-sheet':'output/toc.xml',
-        'toc-level-indentation': '2em',
-
     }
     pdfkit.from_file(html_files, output_file, options=options, toc=toc)
 
@@ -58,7 +51,7 @@ def mds_to_pdf(md_file_ary, output_file):
 
         html_file = 'output/' + str(count) + '.html'
         file = open(html_file, 'w+')
-        content = file.write(content)
+        content = file.write(HTML_TEMPLATE % content)
         file.close()
         html_files.append(html_file)
 
