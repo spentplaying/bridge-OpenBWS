@@ -28,7 +28,7 @@ Table of Contents
 ### Defensive Bidding System
 - [Opening lead](defensive/opening_lead.md)
 - [Defense Signal](defensive/defense_signal.md)
-- Rubens Adanced after partner overcall
+- [Rubens Adanced after partner overcall](defensive/rubens_overcall.md)
 - [Double](defensive/double.md)
 - [VS NT opening](defensive/vs_nt.md)
 - [VS Preemptive Opening](defensive/vs_preempt.md)
