@@ -4,15 +4,30 @@ Opening Lead
 Trump Contract
 --------------
 
+### 01
+
+### 35
+
+### Table
 
 
 No Trump Contract
 -----------------
+### 02
+
+### 4th
+
+### Lead A or K
+
+### Table
 
 
 
 High level Contract
 -------------------
+
+### Lead A or K
+
 #### Design
 - Lead A ask for encourage
 - Lead K ask for count
