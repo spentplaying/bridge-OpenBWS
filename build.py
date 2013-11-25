@@ -30,14 +30,20 @@ def markdown_to_html(md_string):
 def html_files_to_pdf(html_files, output_file):
     options = {
         'page-size': 'A4',
-        'margin-top': '0.75in',
-        'margin-right': '0.75in',
-        'margin-bottom': '0.75in',
-        'margin-left': '0.75in',
+        'margin-top': '20mm',
+        'margin-right': '20mm',
+        'margin-bottom': '20mm',
+        'margin-left': '20mm',
         'encoding': "UTF-8",
         'grayscale': None,
+        'outline-depth':3,
     }
-    pdfkit.from_file(html_files, output_file, options=options)
+    toc = {
+        'xsl-style-sheet':'output/toc.xml',
+        'toc-level-indentation': '2em',
+
+    }
+    pdfkit.from_file(html_files, output_file, options=options, toc=toc)
 
 def mds_to_pdf(md_file_ary, output_file):
     html_files = []
