@@ -9,6 +9,9 @@ DEFENSIVE_SYSTEM = ['defensive/opening_lead.md',
 
 HTML_TEMPLATE = """<!doctype html>
 <html lang="en">
+<head>
+<link rel="stylesheet" href="bootstrap.min.css">
+</head>
 <body>
 %s
 </body>
