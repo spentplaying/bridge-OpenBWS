@@ -28,14 +28,15 @@
             font-family: sans-serif;
           }
 
-          ul ul {font-size: 85%; }
+          ul ul {font-size: 90%; }
 
           ul {padding-left: 0em;}
 
-          ul ul {padding-left: 2em;}
+          ul ul {padding-left: 3em;}
 
           a {text-decoration:none; color: black;}
-
+          <!-- Show only 3 levels of TOC -->
+          h1+ul ul ul ul {display: none;}
         </style>
       </head>
       <body>
