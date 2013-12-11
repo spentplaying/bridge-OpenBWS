@@ -123,9 +123,9 @@ Here I use python as middleware to implement the task.
 ### Setup environment
 
 #### Mac environment
-Install Python
+Install brew
 ```
-brew install pythan
+ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go/install)"
 ```
 
 Install pip to get Python Package
