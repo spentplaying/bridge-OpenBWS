@@ -10,7 +10,7 @@ Opening
 1S  | 11~21 hcp, 5+cd S. May have only 4 card in 3rd/4th position
 1N  | 15~17 hcp, semi-bal. May have 14 hcp with good 5+cd suit.
 2C  | 22+ value hand.
-2D  | 
+2D  | preemptive, usually 6+cd D
 2H  |
 2S  |
 2N  |
